@@ -1,0 +1,13 @@
+.game-room-title {
+    color: #fff;
+    margin-left:30px;
+    font-size: 25px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.game-room-container {
+    min-height: 300px;
+    padding: 30px;
+}

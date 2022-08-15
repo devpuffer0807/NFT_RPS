@@ -1,0 +1,98 @@
+.game-title {
+    color: #fff;
+    margin-left:30px;
+    font-size: 25px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.game-table-container{
+    min-height: 300px;
+}
+
+.game-table {
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    background-color: #1a2c38;
+    color: #fff;
+    border-radius: 5px;
+    table-layout: fixed;
+    width: calc(100%-20px)
+}
+
+.game-table th {
+    background-color: #101a20;
+    font-weight: bold;
+    height: 45px;
+}
+
+.game-table td {
+    height: 45px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.game-table-title {
+    margin-left: 10px;
+}
+
+.game-table-paginator-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.game-table-paginator-container .game-talbe-paginator-item {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #1A2C38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.game-table-paginator-container .game-talbe-paginator-item-active{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.rsdt .rsdt-column-toggles {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.game-table-empty-table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: none;
+    margin-top: 100px;
+}
+
+.game-table img {
+    width: 30px;
+    height: 25px;
+    border-radius: 40px;
+}

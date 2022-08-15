@@ -1,0 +1,13 @@
+.container .game-create-container {
+    min-height: 500px;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .game-create-container > div:first-child {
+    margin-right: 50px;
+}
